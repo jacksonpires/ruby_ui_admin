@@ -1,0 +1,59 @@
+en:
+  ruby_ui_admin:
+    actions:
+      new: "New %{model}"
+      show: "Show"
+      edit: "Edit"
+      destroy: "Delete"
+      create: "Create"
+      update: "Update"
+      cancel: "Cancel"
+      ran_successfully: "Action ran successfully."
+    nav:
+      sign_out: "Sign out"
+    index:
+      actions: "Actions"
+      empty: "No records found."
+      filter: "Filter"
+      clear: "Clear"
+      all: "All"
+      with_selected: "With selected:"
+      search: "Search…"
+      selected_suffix: "selected"
+      no_results: "No results."
+    confirm:
+      title: "Are you sure?"
+      message: "This action cannot be undone."
+      destroy_title: "Delete record"
+      destroy: "Delete “%{model}”? This action cannot be undone."
+      cancel: "Cancel"
+      confirm: "Delete"
+    form:
+      errors: "Please fix the following errors:"
+    fields:
+      file:
+        remove: "Remove current file"
+    booleans:
+      "true": "Yes"
+      "false": "No"
+    associations:
+      count:
+        one: "%{count} item"
+        other: "%{count} items"
+      more: "+%{count} more"
+    tabs:
+      loading: "Loading…"
+      requires_js: "This content requires JavaScript."
+    pagination:
+      showing: "Showing %{from}–%{to} of %{count}"
+      page: "Page %{page} of %{pages}"
+      page_only: "Page %{page}"
+      previous: "Previous"
+      next: "Next"
+  # Locale-aware formats used by the date/date_time fields (no explicit `format:`).
+  time:
+    formats:
+      ruby_ui_admin: "%Y-%m-%d %H:%M"
+  date:
+    formats:
+      ruby_ui_admin: "%Y-%m-%d"

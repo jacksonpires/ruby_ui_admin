@@ -1,0 +1,14 @@
+# frozen_string_literal: true
+
+module RubyUIAdmin
+  module Cards
+    class <%= class_name %> < RubyUIAdmin::Cards::ChartCard
+      self.label = "<%= human_name %>"
+
+      def query
+        # e.g. Post.group(:status).count
+        {}
+      end
+    end
+  end
+end

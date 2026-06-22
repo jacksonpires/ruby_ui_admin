@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+
+module RubyUIAdmin
+  module Cards
+    class <%= class_name %> < RubyUIAdmin::Cards::PartialCard
+      self.label = "<%= human_name %>"
+
+      def query
+        "<p class='text-sm text-muted-foreground'>Hello from <%= human_name %>.</p>"
+      end
+    end
+  end
+end

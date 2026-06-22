@@ -1,0 +1,41 @@
+# frozen_string_literal: true
+
+RubyUIAdmin.configure do |config|
+  # The name shown in the sidebar and page titles.
+  config.app_name = "<%= Rails.application.class.module_parent_name %> Admin"
+
+  # Where the engine is mounted (keep in sync with config/routes.rb).
+  config.root_path = "/<%= options[:path] %>"
+
+  # Records per page on index views.
+  config.per_page = 24
+
+  # Resolve the signed-in admin. The block runs in the controller context.
+  config.current_user_method { current_user }
+
+  # Optional gate run before every admin request, e.g.:
+  # config.authenticate_with { redirect_to main_app.login_path unless current_user&.admin? }
+
+  # Authorization adapter: :action_policy (default), :pundit, :cancancan, or a custom adapter
+  # class. Set to nil to disable. See docs/authorization/adapters.md.
+  config.authorization_client = :action_policy
+
+  # When true, rules a policy doesn't define (and missing policies) are denied.
+  config.explicit_authorization = false
+
+  # The admin renders your app's RubyUI components, so it uses your app's CSS + JS. Point the
+  # layout's <head> at them here (a proc evaluated in the Rails view context). Make sure your
+  # Tailwind build covers app/components/ruby_ui/** and the admin views, and that your bundler
+  # registers RubyUI's Stimulus controllers + the admin's rua--* controllers.
+  # config.head_assets = lambda do
+  #   safe_join([
+  #     stylesheet_link_tag("application", "data-turbo-track": "reload"),
+  #     javascript_importmap_tags
+  #   ])
+  # end
+
+  # In-app docs browser at <mount>/docs (renders the gem's docs/*.md). Defaults to :local
+  # (development/test only, open). Set to true to expose it in production too (behind your auth
+  # gate), or false to disable. Needs kramdown + kramdown-parser-gfm in the target environment.
+  # config.docs_enabled = :local
+end

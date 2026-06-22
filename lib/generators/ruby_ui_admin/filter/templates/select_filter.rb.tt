@@ -1,0 +1,19 @@
+# frozen_string_literal: true
+
+module RubyUIAdmin
+  module Filters
+    class <%= class_name %>Filter < RubyUIAdmin::Filters::SelectFilter
+      self.name = "<%= human_name %>"
+
+      def apply(request, query, value)
+        query.where(<%= singular_name %>: value)
+      end
+
+      def options
+        {
+          # "value" => "Label"
+        }
+      end
+    end
+  end
+end

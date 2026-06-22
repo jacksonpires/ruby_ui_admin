@@ -1,0 +1,24 @@
+# frozen_string_literal: true
+
+module RubyUIAdmin
+  class <%= controller_class_name %> < RubyUIAdmin::ResourcesController
+    # Override CRUD lifecycle hooks as needed. Defaults live in ResourcesController.
+    #
+    # def after_create_path = resources_index_path
+    #
+    # def create_success_action
+    #   super # or: redirect_to after_create_path, notice: "Created!"
+    # end
+    #
+    # def update_success_action
+    #   redirect_to after_update_path, notice: "Updated!"
+    # end
+    #
+    # def destroy_fail_action
+    #   redirect_to resources_index_path, alert: "Could not delete."
+    # end
+    #
+    # You can also override the CRUD actions themselves (create/update/destroy)
+    # and call `super`, or reimplement them.
+  end
+end

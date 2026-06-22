@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+module RubyUIAdmin
+  module Scopes
+    class <%= class_name %> < RubyUIAdmin::Scopes::BaseScope
+      self.name = "<%= human_name %>"
+      self.scope = -> { query.all }
+      # self.default = true
+    end
+  end
+end

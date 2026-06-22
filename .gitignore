@@ -1,0 +1,23 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+/test/tmp/
+*.gem
+*.rbc
+.rspec_status
+Gemfile.lock
+
+# Dummy app
+/test/dummy/log/*
+/test/dummy/tmp/*
+/test/dummy/storage/*
+/test/dummy/db/*.sqlite3
+/test/dummy/db/*.sqlite3-*
+!/test/dummy/log/.keep
+!/test/dummy/tmp/.keep
+.DS_Store

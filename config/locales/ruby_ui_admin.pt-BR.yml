@@ -1,0 +1,59 @@
+"pt-BR":
+  ruby_ui_admin:
+    actions:
+      new: "Novo %{model}"
+      show: "Ver"
+      edit: "Editar"
+      destroy: "Excluir"
+      create: "Criar"
+      update: "Atualizar"
+      cancel: "Cancelar"
+      ran_successfully: "Ação executada com sucesso."
+    nav:
+      sign_out: "Sair"
+    index:
+      actions: "Ações"
+      empty: "Nenhum registro encontrado."
+      filter: "Filtrar"
+      clear: "Limpar"
+      all: "Todos"
+      with_selected: "Com selecionados:"
+      search: "Pesquisar…"
+      selected_suffix: "selecionados"
+      no_results: "Nenhum resultado."
+    confirm:
+      title: "Tem certeza?"
+      message: "Esta ação não pode ser desfeita."
+      destroy_title: "Excluir registro"
+      destroy: "Excluir “%{model}”? Esta ação não pode ser desfeita."
+      cancel: "Cancelar"
+      confirm: "Excluir"
+    form:
+      errors: "Corrija os seguintes erros:"
+    fields:
+      file:
+        remove: "Remover arquivo atual"
+    booleans:
+      "true": "Sim"
+      "false": "Não"
+    associations:
+      count:
+        one: "%{count} item"
+        other: "%{count} itens"
+      more: "+%{count} mais"
+    tabs:
+      loading: "Carregando…"
+      requires_js: "Este conteúdo requer JavaScript."
+    pagination:
+      showing: "Exibindo %{from}–%{to} de %{count}"
+      page: "Página %{page} de %{pages}"
+      page_only: "Página %{page}"
+      previous: "Anterior"
+      next: "Próximo"
+  # Formatos locale-aware usados pelos campos date/date_time (sem `format:` explícito).
+  time:
+    formats:
+      ruby_ui_admin: "%d/%m/%Y %H:%M"
+  date:
+    formats:
+      ruby_ui_admin: "%d/%m/%Y"

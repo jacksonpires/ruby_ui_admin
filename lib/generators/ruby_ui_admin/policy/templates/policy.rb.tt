@@ -1,0 +1,24 @@
+# frozen_string_literal: true
+
+module RubyUIAdmin
+  module Policies
+    class <%= class_name %>Policy < RubyUIAdmin::BasePolicy
+      def index? = true
+
+      def show? = true
+
+      def create? = true
+
+      def update? = true
+
+      def destroy? = true
+
+      def act_on? = true
+
+      # Scope records on the index view:
+      # relation_scope do |relation|
+      #   relation
+      # end
+    end
+  end
+end

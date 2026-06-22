@@ -1,0 +1,24 @@
+# frozen_string_literal: true
+
+module RubyUIAdmin
+  module Actions
+    class <%= class_name %> < RubyUIAdmin::BaseAction
+      self.name = "<%= human_name %>"
+<% if options[:standalone] -%>
+      self.standalone = true
+<% end -%>
+
+      def fields
+        # field :note, as: :text
+      end
+
+      def handle(query:, fields:, current_user:, **)
+        query.each do |record|
+          # do something with each record
+        end
+
+        succeed "Done!"
+      end
+    end
+  end
+end

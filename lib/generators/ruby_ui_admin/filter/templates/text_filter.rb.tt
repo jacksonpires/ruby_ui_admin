@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+
+module RubyUIAdmin
+  module Filters
+    class <%= class_name %>Filter < RubyUIAdmin::Filters::TextFilter
+      self.name = "<%= human_name %>"
+
+      def apply(request, query, value)
+        query.where("<%= singular_name %> LIKE ?", "%#{value}%")
+      end
+    end
+  end
+end

@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+
+module RubyUIAdmin
+  module Resources
+    class <%= resource_class_name %> < RubyUIAdmin::BaseResource
+<% if model_class_name -%>
+      self.model_class = <%= model_class_name %>
+
+<% end -%>
+      def fields
+<%= fields_block %>
+      end
+    end
+  end
+end

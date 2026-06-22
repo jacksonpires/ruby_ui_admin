@@ -1,0 +1,14 @@
+# frozen_string_literal: true
+
+module RubyUIAdmin
+  module Dashboards
+    class <%= class_name %> < RubyUIAdmin::BaseDashboard
+      self.name = "<%= human_name %>"
+      # self.grid_columns = 3
+
+      def cards
+        # card RubyUIAdmin::Cards::SomeMetric
+      end
+    end
+  end
+end
