@@ -1,0 +1,1001 @@
+lib/ruby_ui_admin/filters/boolean_filter.rb
+  s_13ad4d372c717b::t_861cfd4068a317 1-9
+lib/ruby_ui_admin/base_dashboard.rb
+  s_13ad4d372c717b::t_eac25b0865755f 1-70
+lib/generators/ruby_ui_admin/card/card_generator.rb
+  s_13ad4d372c717b::t_e9f665325d7632 1-28
+lib/ruby_ui_admin/menu/builder.rb
+  s_13ad4d372c717b::t_0f7f0cf26f9ab0 1-94
+test/dummy/app/components/ruby_ui/sidebar/sidebar_controller.js
+  s_13ad4d372c717b::t_aa41550f87b472 1-67
+test/dummy/app/components/ruby_ui/sheet/sheet_footer.rb
+  s_13ad4d372c717b::t_991038ae137356 1-17
+lib/generators/ruby_ui_admin/controller/controller_generator.rb
+  s_13ad4d372c717b::t_5f068d06ccc54d 1-30
+test/dummy/app/components/ruby_ui/sidebar/sidebar_menu_item.rb
+  s_13ad4d372c717b::t_684bc91bac556b 1-20
+app/components/ruby_ui_admin/ui/pagination.rb
+  s_13ad4d372c717b::t_721049decdaeee 1-62
+test/dummy/app/components/ruby_ui/sidebar/mobile_sidebar.rb
+  s_13ad4d372c717b::t_34f15ee28697df 1-45
+test/dummy/config/storage.yml
+  s_13ad4d372c717b::t_985ea8ef53b22b 1-3
+test/dummy/db/migrate/20260101000007_create_tags.rb
+  s_13ad4d372c717b::t_b82b6e5c6f15ee 1-16
+app/components/ruby_ui_admin/views/index.rb
+  s_13ad4d372c717b::t_c393c5587e68db 1-324
+lib/ruby_ui_admin/fields/boolean_field.rb
+  s_13ad4d372c717b::t_f23802fc08f573 1-13
+lib/ruby_ui_admin/cards/chart_card.rb
+  s_13ad4d372c717b::t_a5785e7bcfdcba 1-16
+app/components/ruby_ui_admin/views/filter_bar.rb
+  s_13ad4d372c717b::t_fe1021b91a7339 1-111
+app/components/ruby_ui_admin/views/translation.rb
+  s_13ad4d372c717b::t_27d9cd6109b02f 1-12
+test/dummy/app/ruby_ui_admin/scopes/published_posts.rb
+  s_13ad4d372c717b::t_2e3a465dedc12a 1-11
+test/dummy/app/ruby_ui_admin/filters/published_filter.rb
+  s_13ad4d372c717b::t_3e0cb2906e1429 1-13
+test/lib/ruby_ui_admin/fields_test.rb
+  s_13ad4d372c717b::t_24d90a03853f46 1-90
+lib/generators/ruby_ui_admin/components/components_generator.rb
+  s_13ad4d372c717b::t_d508bd060a7e5f 1-43
+app/components/ruby_ui_admin/views/path_helpers.rb
+  s_13ad4d372c717b::t_4d9926e643cf51 1-36
+test/dummy/app/models/comment.rb
+  s_13ad4d372c717b::t_2c70be7fb23bb9 1-11
+test/lib/ruby_ui_admin/authorization_service_test.rb
+  s_13ad4d372c717b::t_a0e9cb6fc4a04a 1-65
+test/dummy/app/ruby_ui_admin/actions/import_posts.rb
+  s_13ad4d372c717b::t_634b1170c81607 1-26
+lib/ruby_ui_admin/resource_manager.rb
+  s_13ad4d372c717b::t_08d685d1509188 1-82
+test/dummy/app/components/ruby_ui/checkbox/checkbox_group.rb
+  s_13ad4d372c717b::t_26774f8d726600 1-20
+app/components/ruby_ui_admin/ui/native_select.rb
+  s_13ad4d372c717b::t_43953e738aa9b7 1-37
+lib/generators/ruby_ui_admin/policy/policy_generator.rb
+  s_13ad4d372c717b::t_371f0d5efa7481 1-18
+test/dummy/app/components/ruby_ui/combobox/combobox_input_trigger.rb
+  s_13ad4d372c717b::t_abb2ad98987a98 1-64
+test/authorization/adapter_resolution_test.rb
+  s_13ad4d372c717b::t_fbc154120046d0 1-61
+test/authorization/can_can_can_adapter_test.rb
+  s_13ad4d372c717b::t_e474c46026b1d9 1-78
+test/dummy/db/migrate/20260101000003_add_post_flags.rb
+  s_13ad4d372c717b::t_a861f37ef7c8ad 1-7
+test/dummy/app/components/ruby_ui/sidebar/non_collapsible_sidebar.rb
+  s_13ad4d372c717b::t_bcba881ab74e14 1-17
+public/ruby-ui-admin-assets/controllers/index.js
+  s_13ad4d372c717b::t_8b9c3cc2af6d4c 1-36
+test/dummy/app/components/ruby_ui/combobox/combobox.rb
+  s_13ad4d372c717b::t_c0e9013f386c56 1-27
+test/dummy/app/components/ruby_ui/select/select_item_controller.js
+  s_13ad4d372c717b::t_f21dbd74832c01 1-11
+test/integration/field_polish_test.rb
+  s_13ad4d372c717b::t_860bc00e6b3ba9 1-45
+lib/ruby_ui_admin/fields/password_field.rb
+  s_13ad4d372c717b::t_f74f58fee59c6b 1-21
+test/dummy/app/ruby_ui_admin/filters/comment_body_filter.rb
+  s_13ad4d372c717b::t_bcb08b3f2daaec 1-18
+test/dummy/app/components/ruby_ui/combobox/combobox_list.rb
+  s_13ad4d372c717b::t_9dd21ed2927d5d 1-18
+lib/ruby_ui_admin/fields/number_field.rb
+  s_13ad4d372c717b::t_54dc77c896e72b 1-13
+lib/generators/ruby_ui_admin/card/templates/metric_card.rb.tt
+  s_13ad4d372c717b::t_1672100d451326 1-14
+test/dummy/app/components/ruby_ui/sheet/sheet_description.rb
+  s_13ad4d372c717b::t_dfdb324c5a68eb 1-17
+test/dummy/app/components/ruby_ui/combobox/combobox_item.rb
+  s_13ad4d372c717b::t_1112489b132ac5 1-26
+test/dummy/app/ruby_ui_admin/actions/import_posts_csv.rb
+  s_13ad4d372c717b::t_70e9653d18de7a 1-27
+test/dummy/app/components/ruby_ui/native_select/native_select_option.rb
+  s_13ad4d372c717b::t_96b0fee3953af1 1-15
+docs/getting-started/practical-guide.md
+  s_13ad4d372c717b::t_6997a5a3998525 265-267,275-277
+  s_13ad4d372c717b::t_b2387dc1297d8a 78
+  s_13ad4d372c717b::t_aa56b0a0ebcb67 156-164
+  s_13ad4d372c717b::t_d68362b2b5303c 19-20
+  s_13ad4d372c717b::t_355e0eb0b95f4a 289
+  s_13ad4d372c717b::t_8f0afc0525d5e2 67-68,71,73-77
+  s_13ad4d372c717b::t_a48a7ded2ce9da 85-87
+  s_13ad4d372c717b::t_909c87ad58675e 15-17
+  s_13ad4d372c717b::t_24a7207505827f 119-121,140-142
+  s_13ad4d372c717b::t_d164338ed7ea55 279
+  s_13ad4d372c717b::t_7c63085627c583 144-146,153
+  s_13ad4d372c717b::t_9a723e8d622318 1-14,25-27,92-97,105-106,122-139,147,170-174,182-197,205-221,229-240,248-260,268-274,294,301-310
+  s_13ad4d372c717b::t_eb1c8b3d6f626c 165-166
+  s_13ad4d372c717b::t_5edbe41eb24443 22-24,28-30
+  s_13ad4d372c717b::t_c0f002f8ee0c7f 60-65
+  s_13ad4d372c717b::t_55f72e569e4a39 31-36
+  s_13ad4d372c717b::t_6470e5ce0e6d7e 43
+  s_13ad4d372c717b::t_3d1e518eb8f7f3 283-287
+  s_13ad4d372c717b::t_168cbe9a66d64e 291-293
+  s_13ad4d372c717b::t_3306e17c81c5c4 111-115
+  s_13ad4d372c717b::t_e1fb362bb84e24 18,21,37,42,44,47-59,69-70,72,84,88,101,110,116,118,143,178,201,225,244,264,278,280,282,288,290
+  s_13ad4d372c717b::t_6463080ee899eb 79-83
+  s_13ad4d372c717b::t_a02ab808aff0ae 281
+  s_13ad4d372c717b::t_5ee5ed6aaf2a47 89-91,98-100
+  s_13ad4d372c717b::t_181ed69e1d0d30 38-41
+  s_13ad4d372c717b::t_0c244e99ca7940 296-300
+  s_13ad4d372c717b::t_3de6fb9721c70a 245-247,261-263
+  s_13ad4d372c717b::t_46e136244aa20c 45-46
+  s_13ad4d372c717b::t_927ceca9e81969 202-204,222-224
+  s_13ad4d372c717b::t_7c1b8efa8c0a9f 102-104,107-109
+  s_13ad4d372c717b::t_5ff092337318d6 226-228,241-243
+  s_13ad4d372c717b::t_c86ab9b99f52c3 167-169,175-177
+  s_13ad4d372c717b::t_3fc3d526581d18 148-152,155
+  s_13ad4d372c717b::t_77c6761cc13881 117
+  s_13ad4d372c717b::t_6b383cf5d60259 154
+  s_13ad4d372c717b::t_55976d6f8916b7 179-181,198-200
+  s_13ad4d372c717b::t_0fbfbb4f189ec2 66
+  s_13ad4d372c717b::t_4113f7e7c4f298 295
+test/dummy/app/components/ruby_ui/sheet/sheet_content_controller.js
+  s_13ad4d372c717b::t_e1cd333fa3f53d 1-7
+test/dummy/app/components/ruby_ui/toast/toast_icon.rb
+  s_13ad4d372c717b::t_34217dec60ad60 1-65
+app/components/ruby_ui_admin/views/dashboard.rb
+  s_13ad4d372c717b::t_ffb0696a87cb6c 1-40
+app/components/ruby_ui_admin/ui/toast_icon.rb
+  s_21533fa37d81c4::t_97a1e239fc8528 66-68
+  s_21533fa37d81c4::t_d185dac65f4806 65
+  s_21533fa37d81c4::t_eef1678e674bf3 1-61,69
+  s_21533fa37d81c4::t_c0dfd930ada323 62-64
+docs/customization/javascript.md
+  s_13ad4d372c717b::t_ff8b18a9e253d3 47-49,56-58
+  s_13ad4d372c717b::t_2832dd5a7a0f60 10-27,33,40-46,59,130
+  s_13ad4d372c717b::t_f787b5c0cb5b46 1-6,50-55,63-126,134-161
+  s_13ad4d372c717b::t_93c8cb26e0ea0a 7-9
+  s_13ad4d372c717b::t_9e998c5f7b1546 28-32,34-39
+  s_13ad4d372c717b::t_808b96565d35a9 60-62,127-129
+  s_13ad4d372c717b::t_e9b0994435f259 131-133
+lib/ruby_ui_admin/cards/metric_card.rb
+  s_13ad4d372c717b::t_5c9b64286f842e 1-22
+test/dummy/app/components/ruby_ui/sheet/sheet.rb
+  s_13ad4d372c717b::t_8b2a28d303689b 1-25
+test/dummy/db/migrate/20260101000002_add_post_extras.rb
+  s_13ad4d372c717b::t_486847dd925944 1-9
+MIT-LICENSE
+  s_13ad4d372c717b::t_effd55f4b5bb14 1-20
+test/dummy/app/components/ruby_ui/sidebar/sidebar_header.rb
+  s_13ad4d372c717b::t_11dec2306d4de1 1-20
+lib/generators/ruby_ui_admin/filter/templates/boolean_filter.rb.tt
+  s_13ad4d372c717b::t_5fff5b864ffe0c 1-13
+test/dummy/db/migrate/20260101000008_create_active_storage_tables.rb
+  s_13ad4d372c717b::t_ceaf6ca1dfa11b 1-36
+lib/ruby_ui_admin/fields/has_many_field.rb
+  s_13ad4d372c717b::t_ad7f44a57dec4f 1-24
+test/dummy/app/components/ruby_ui/combobox/combobox_popover.rb
+  s_13ad4d372c717b::t_056726cd39ed5b 1-31
+lib/ruby_ui_admin/tailwind_source.rb
+  s_13ad4d372c717b::t_c78687cff72c95 1-25,31,33-41,46,48-65
+  s_13ad4d372c717b::t_90e87cf6fa20e8 26-30,32
+  s_13ad4d372c717b::t_41e453fe40ccb8 42-45,47
+test/dummy/app/components/ruby_ui/table/table_row.rb
+  s_13ad4d372c717b::t_fbfbe21c1020a9 1-17
+test/dummy/db/schema.rb
+  s_13ad4d372c717b::t_5e28331e02f067 1-109
+test/dummy/app/ruby_ui_admin/filters/title_filter.rb
+  s_13ad4d372c717b::t_1d76d70f856870 1-13
+app/components/ruby_ui_admin/ui/pagination_ellipsis.rb
+  s_13ad4d372c717b::t_8d9221d5b86894 1-45
+lib/ruby_ui_admin/fields/textarea_field.rb
+  s_13ad4d372c717b::t_318207b9d75952 1-13
+public/ruby-ui-admin-assets/application.css
+  s_13ad4d372c717b::t_e5bba9be1b0de4 1-2
+lib/ruby_ui_admin/fields/belongs_to_field.rb
+  s_13ad4d372c717b::t_942f0e502f3d3c 1-49
+app/components/ruby_ui_admin/views/show_tab.rb
+  s_13ad4d372c717b::t_fe940570849c35 1-58
+lib/ruby_ui_admin/configuration.rb
+  s_13ad4d372c717b::t_6f31b04b4120c8 1-177
+test/dummy/app/components/ruby_ui/sidebar/sidebar_footer.rb
+  s_13ad4d372c717b::t_73eb0d942dc043 1-20
+test/dummy/app/components/ruby_ui/sidebar/sidebar_menu_skeleton.rb
+  s_13ad4d372c717b::t_0e49a0c7a0d9bd 1-36
+docs/dashboards/overview.md
+  s_13ad4d372c717b::t_181c46a15833c6 1-65
+test/dummy/app/components/ruby_ui/sidebar/sidebar_trigger.rb
+  s_13ad4d372c717b::t_cb8005f2f45a07 1-42
+app/components/ruby_ui_admin/ui/native_select_icon.rb
+  s_13ad4d372c717b::t_2c13a67d1e206b 1-42
+test/dummy/app/components/ruby_ui/button/button.rb
+  s_13ad4d372c717b::t_d5085a75ab238b 1-113
+test/lib/ruby_ui_admin/dashboard_test.rb
+  s_13ad4d372c717b::t_af9cd82e0cbb66 1-41
+test/dummy/app/ruby_ui_admin/cards/posts_by_status.rb
+  s_13ad4d372c717b::t_a589135e299c96 1-13
+public/ruby-ui-admin-assets/controllers/ruby_ui--toast_controller.js
+  s_13ad4d372c717b::t_feb1b4e0742209 1-151
+lib/ruby_ui_admin/engine.rb
+  s_13ad4d372c717b::t_f5d7c567e6a5de 1-80
+test/dummy/app/components/ruby_ui/table/table_body.rb
+  s_13ad4d372c717b::t_6d8cf0cd9904ac 1-17
+test/dummy/app/components/ruby_ui/combobox/combobox_badge.rb
+  s_13ad4d372c717b::t_b9fdf9e1cf6288 1-17
+test/dummy/app/components/ruby_ui/sheet/sheet_header.rb
+  s_13ad4d372c717b::t_fc54ac584a0c18 1-17
+test/dummy/app/components/ruby_ui/sidebar/sidebar_menu_sub_item.rb
+  s_13ad4d372c717b::t_7f09fd9c3badf7 1-9
+lib/generators/ruby_ui_admin/controller/templates/controller.rb.tt
+  s_13ad4d372c717b::t_2463acc7534fb7 1-24
+app/components/ruby_ui_admin/views/form.rb
+  s_13ad4d372c717b::t_db6c6b98b1be9c 1-151
+test/dummy/app/components/ruby_ui/select/select_trigger.rb
+  s_13ad4d372c717b::t_9a2b9fef90e7f9 1-59
+lib/ruby_ui_admin/fields/date_time_field.rb
+  s_13ad4d372c717b::t_6ba415c256d678 1-37
+test/dummy/app/components/ruby_ui/card/card_content.rb
+  s_13ad4d372c717b::t_ea98d7eb71b65f 1-17
+test/dummy/bin/rails
+  s_13ad4d372c717b::t_75eafbcacb0c30 1-6
+test/dummy/app/components/ruby_ui/sidebar/sidebar_group_content.rb
+  s_13ad4d372c717b::t_10655b034f681a 1-20
+test/dummy/app/components/ruby_ui/toast/toast_description.rb
+  s_13ad4d372c717b::t_e1c13dd06c839a 1-18
+test/dummy/app/components/ruby_ui/sidebar/sidebar.rb
+  s_13ad4d372c717b::t_0a103fd764f56c 1-29
+lib/ruby_ui_admin/base_action.rb
+  s_13ad4d372c717b::t_2f4b54d41b6a2a 1-211
+test/integration/association_options_test.rb
+  s_13ad4d372c717b::t_9bf7039282bfc3 1-36
+test/dummy/app/components/ruby_ui/sidebar/sidebar_menu_sub_button.rb
+  s_13ad4d372c717b::t_f6f1661ca6cc7c 1-50
+test/dummy/app/components/ruby_ui/select/select_group.rb
+  s_13ad4d372c717b::t_7b46820ab571e5 1-15
+lib/generators/ruby_ui_admin/locales/locales_generator.rb
+  s_13ad4d372c717b::t_a6e0cf3c876414 1-22
+app/components/ruby_ui_admin/views/action.rb
+  s_13ad4d372c717b::t_835f4151cd0ba1 1-37
+test/dummy/app/components/ruby_ui/sidebar/sidebar_content.rb
+  s_13ad4d372c717b::t_73fe5139ec3eb4 1-20
+test/dummy/app/components/ruby_ui/sidebar/sidebar_group_action.rb
+  s_13ad4d372c717b::t_8b7b88bdd1744b 1-33
+test/dummy/app/ruby_ui_admin/policies/post_policy.rb
+  s_13ad4d372c717b::t_541fa02e22bb6c 1-32
+test/dummy/app/components/ruby_ui/sheet/sheet_title.rb
+  s_13ad4d372c717b::t_eb8ec8962ee086 1-17
+lib/ruby_ui_admin/filters/base_filter.rb
+  s_13ad4d372c717b::t_afadb14845f7c3 1-81
+test/integration/i18n_test.rb
+  s_13ad4d372c717b::t_51a73c63b641f7 1-49
+public/ruby-ui-admin-assets/controllers/rua--dialog_controller.js
+  s_13ad4d372c717b::t_b7fb3e3496e540 1-55
+test/dummy/app/components/ruby_ui/card/card_title.rb
+  s_13ad4d372c717b::t_e60299fdec0429 1-17
+test/integration/docs_test.rb
+  s_13ad4d372c717b::t_af881aaa9de65d 1-90
+lib/ruby_ui_admin/structure.rb
+  s_13ad4d372c717b::t_b18f285a3c9d4a 1-40
+test/dummy/app/ruby_ui_admin/filters/visibility_filter.rb
+  s_13ad4d372c717b::t_310b2613d0a1fc 1-24
+test/dummy/app/ruby_ui_admin/dashboards/overview.rb
+  s_13ad4d372c717b::t_24f8f1fd710bc0 1-17
+app/components/ruby_ui_admin/ui/icon.rb
+  s_13ad4d372c717b::t_38606536e42476 1-79
+app/components/ruby_ui_admin/views/base.rb
+  s_13ad4d372c717b::t_dddaaace95628d 1-301
+test/integration/main_menu_test.rb
+  s_13ad4d372c717b::t_ff0c5dcb010e9b 1-51
+app/controllers/ruby_ui_admin/actions_controller.rb
+  s_13ad4d372c717b::t_f877ae0a976b67 1-162
+public/ruby-ui-admin-assets/controllers/ruby_ui--toaster_controller.js
+  s_13ad4d372c717b::t_c9479dbf6f0691 1-314
+app/components/ruby_ui_admin/views/action_form.rb
+  s_13ad4d372c717b::t_32f3273e1ea752 1-104
+test/dummy/app/components/ruby_ui/select/select_input.rb
+  s_13ad4d372c717b::t_7d3225ffc5c1ba 1-22
+app/components/ruby_ui_admin/views/rails_helpers.rb
+  s_13ad4d372c717b::t_d856a4ee70b020 1-15
+test/integration/index_polish_test.rb
+  s_13ad4d372c717b::t_400f3011670f08 1-68
+app/components/ruby_ui_admin/ui/toast_region.rb
+  s_13ad4d372c717b::t_d4d1078f2e8ede 1-147
+test/dummy/app/components/ruby_ui/table/table_header.rb
+  s_13ad4d372c717b::t_9e29e6c668441e 1-17
+lib/ruby_ui_admin/fields/status_field.rb
+  s_13ad4d372c717b::t_9833021ec04434 1-21
+app/components/ruby_ui_admin/ui/pagination_item.rb
+  s_13ad4d372c717b::t_4aefe25dcd0379 1-32
+public/ruby-ui-admin-assets/controllers/rua--confirm_controller.js
+  s_13ad4d372c717b::t_faa0cb67b5b55b 1-51
+test/integration/actions_test.rb
+  s_13ad4d372c717b::t_9a701da59b510f 1-90
+app/controllers/ruby_ui_admin/dashboards_controller.rb
+  s_13ad4d372c717b::t_ecbf3a704e7457 1-12
+lib/generators/ruby_ui_admin/assets/assets_generator.rb
+  s_13ad4d372c717b::t_4049e5bfd867f8 1-6,11-13,25-28,31-32,35,37,39,42-45,65-66,68-71
+  s_13ad4d372c717b::t_b42b98f95f0e8e 7-10,14-24,29-30,33-34,36,38,40-41,46-64
+  s_13ad4d372c717b::t_292b9c5fa01a78 67
+test/dummy/app/ruby_ui_admin/resources/tag.rb
+  s_13ad4d372c717b::t_fd33a809d7defb 1-17
+lib/generators/ruby_ui_admin/filter/templates/select_filter.rb.tt
+  s_13ad4d372c717b::t_d8081843b500c3 1-19
+test/dummy/app/ruby_ui_admin/actions/publish_posts.rb
+  s_13ad4d372c717b::t_3d0421108a7aae 1-17
+app/components/ruby_ui_admin/ui/base.rb
+  s_13ad4d372c717b::t_a47cc1b9bb7845 1-26
+test/integration/associations_test.rb
+  s_13ad4d372c717b::t_cb0eddd0ca314c 1-66
+test/dummy/db/migrate/20260101000006_create_profiles.rb
+  s_13ad4d372c717b::t_7427af198511df 1-12
+app/components/ruby_ui_admin/views/actions_menu.rb
+  s_13ad4d372c717b::t_6dd42a66eab197 1-34
+lib/ruby_ui_admin/fields/base_field.rb
+  s_13ad4d372c717b::t_00589a9b5cdd5a 1-208
+test/dummy/app/components/ruby_ui/table/table.rb
+  s_13ad4d372c717b::t_598a2ecb79d636 1-19
+test/dummy/app/components/ruby_ui/checkbox/checkbox.rb
+  s_13ad4d372c717b::t_534c1162286acc 1-29
+lib/generators/ruby_ui_admin/action/action_generator.rb
+  s_13ad4d372c717b::t_17e5fbe731ba09 1-21
+test/dummy/app/components/ruby_ui/table/table_footer.rb
+  s_13ad4d372c717b::t_5f4a21580cbf2f 1-17
+lib/ruby_ui_admin/cards/base_card.rb
+  s_13ad4d372c717b::t_6618b054e99427 1-59
+test/dummy/app/components/ruby_ui/combobox/combobox_item_indicator.rb
+  s_13ad4d372c717b::t_551977a5d5cdd0 1-30
+test/dummy/app/ruby_ui_admin/resources/post.rb
+  s_13ad4d372c717b::t_fa040e4f7c2f51 1-97
+test/dummy/app/components/ruby_ui/sidebar/sidebar_group_label.rb
+  s_13ad4d372c717b::t_0f577de389ad8a 1-26
+lib/generators/ruby_ui_admin/install/install_generator.rb
+  s_13ad4d372c717b::t_6a4634ca72117a 1-14
+  s_13ad4d372c717b::t_464d64166d2c38 23-25
+  s_13ad4d372c717b::t_94972cd3d2c336 60-62
+  s_13ad4d372c717b::t_82caf96718d557 18,22,26-32,38-59
+  s_13ad4d372c717b::t_8450b45d3d368e 35-37
+  s_13ad4d372c717b::t_c0ff9968f15df7 19-21
+  s_13ad4d372c717b::t_16ef59a20d4de2 33-34
+  s_13ad4d372c717b::t_2e5a85bc3e77da 15-17
+test/dummy/app/controllers/ruby_ui_admin/comments_controller.rb
+  s_13ad4d372c717b::t_99b396b5d68db0 1-14
+lib/generators/ruby_ui_admin/dashboard/dashboard_generator.rb
+  s_13ad4d372c717b::t_4da5ad5b11df43 1-18
+public/ruby-ui-admin-assets/vendor/turbo.js
+  s_13ad4d372c717b::t_e5635ce6554cdd 1-7178
+lib/ruby_ui_admin/filters/select_filter.rb
+  s_13ad4d372c717b::t_2dafb498745273 1-9
+test/dummy/app/components/ruby_ui/sidebar/sidebar_input.rb
+  s_13ad4d372c717b::t_b31fe3cb184f0a 1-20
+lib/generators/ruby_ui_admin/dashboard/templates/dashboard.rb.tt
+  s_13ad4d372c717b::t_add2ef3410832b 1-14
+test/integration/scopes_test.rb
+  s_13ad4d372c717b::t_060e79dedc55ab 1-80
+test/dummy/app/components/ruby_ui/toast/toast_action.rb
+  s_13ad4d372c717b::t_3d5d13ca7f320b 1-27
+lib/ruby_ui_admin/fields/text_field.rb
+  s_13ad4d372c717b::t_1c06f033765218 1-14
+docs/authorization/explicit-mode.md
+  s_13ad4d372c717b::t_aeb84a3cdd6397 1-45
+lib/ruby_ui_admin/authorization/action_policy_adapter.rb
+  s_13ad4d372c717b::t_43817323f012ff 1-69
+test/dummy/app/components/ruby_ui/card/card_footer.rb
+  s_13ad4d372c717b::t_99e9971ab3de36 1-17
+docs/authorization/policies.md
+  s_13ad4d372c717b::t_d90a65f8c91a70 1-62
+test/integration/filters_test.rb
+  s_13ad4d372c717b::t_36d838b19f3e0e 1-89
+test/dummy/app/components/ruby_ui/sheet/sheet_content.rb
+  s_13ad4d372c717b::t_b11051a18530b6 1-77
+test/dummy/config.ru
+  s_13ad4d372c717b::t_2342d11b8c1a30 1-5
+test/dummy/app/components/ruby_ui/toast/toast_item.rb
+  s_13ad4d372c717b::t_9e129dfb63f734 1-72
+test/dummy/app/components/ruby_ui/sidebar/sidebar_wrapper.rb
+  s_13ad4d372c717b::t_b93599b728416c 1-24
+lib/generators/ruby_ui_admin/card/templates/chart_card.rb.tt
+  s_13ad4d372c717b::t_bf210c5b14347a 1-14
+lib/tasks/ruby_ui_admin.rake
+  s_13ad4d372c717b::t_d89c1141fdb828 46
+  s_13ad4d372c717b::t_86521c79fa9b9c 11-13,25-27
+  s_13ad4d372c717b::t_ee509bc90a3885 71
+  s_13ad4d372c717b::t_539e3c129a6b3f 34-36,42-44
+  s_13ad4d372c717b::t_f5013fb67c420d 7-9
+  s_13ad4d372c717b::t_ff5b1f4d18d352 29-32
+  s_13ad4d372c717b::t_eb89f420e6f7dc 64-69
+  s_13ad4d372c717b::t_5e34b1525eaa5f 1-6,14-24,37-41
+  s_13ad4d372c717b::t_5541f49f352587 10,28,33,45,47-63,70
+test/dummy/app/components/ruby_ui/card/card.rb
+  s_13ad4d372c717b::t_b494643f81c4fe 1-17
+lib/generators/ruby_ui_admin/resource/templates/resource.rb.tt
+  s_13ad4d372c717b::t_2359c8ce62cae1 1-15
+test/dummy/app/components/ruby_ui/sidebar/sidebar_rail.rb
+  s_13ad4d372c717b::t_5b66a0577f1226 1-36
+app/components/ruby_ui_admin/ui/toast_description.rb
+  s_13ad4d372c717b::t_ce837739e23b19 1-21
+config/locales/ruby_ui_admin.en.yml
+  s_13ad4d372c717b::t_250bd2a322ee0e 1-59
+lib/ruby_ui_admin/current.rb
+  s_13ad4d372c717b::t_c7931a364597ce 1-20
+test/dummy/config/locales/pt-BR.yml
+  s_13ad4d372c717b::t_eeaa7d769a6083 1-5
+docs/customization/theming-rubyui.md
+  s_13ad4d372c717b::t_6e22dc7f212d3b 1-58,69-70,78-80
+  s_13ad4d372c717b::t_af3ce9961b48f0 59-61
+  s_13ad4d372c717b::t_85b1a0893caf21 75-77
+  s_13ad4d372c717b::t_e38632b580701e 74
+  s_13ad4d372c717b::t_7f75ca169c04b6 66-68,71-73
+  s_13ad4d372c717b::t_ceea22f4faeaaa 62-65
+docs/authorization/scopes.md
+  s_13ad4d372c717b::t_ff84b98510d739 1-48
+test/dummy/app/components/ruby_ui/select/select_label.rb
+  s_13ad4d372c717b::t_ed1240e4917190 1-17
+test/dummy/app/components/ruby_ui/pagination/pagination_content.rb
+  s_13ad4d372c717b::t_8d1e06d7ed8f88 1-17
+lib/ruby_ui_admin/base_policy.rb
+  s_13ad4d372c717b::t_3140613df5ac0f 1-38
+docs/resources/tabs-panels.md
+  s_13ad4d372c717b::t_7b9ff783efe441 1-65
+test/lib/ruby_ui_admin/resource_test.rb
+  s_13ad4d372c717b::t_2d844161d533a7 1-49
+test/dummy/app/models/post.rb
+  s_13ad4d372c717b::t_78010fae841ee2 1-14
+test/dummy/app/models/user.rb
+  s_13ad4d372c717b::t_73aad2e1657512 1-19
+lib/ruby_ui_admin/authorization/pundit_adapter.rb
+  s_13ad4d372c717b::t_4e41f8dff4b8a1 1-86
+test/dummy/app/components/ruby_ui/native_select/native_select.rb
+  s_13ad4d372c717b::t_ab051fb3616ff6 1-39
+test/generators/generators_test.rb
+  s_13ad4d372c717b::t_59893b2cc398ff 103-104
+  s_13ad4d372c717b::t_c2da9235d54460 115-117
+  s_13ad4d372c717b::t_4d9be4ac7d75f3 41-43
+  s_13ad4d372c717b::t_43fcd7d6fded81 34-35
+  s_13ad4d372c717b::t_846128b94d933f 161-162
+  s_13ad4d372c717b::t_80b6e9673e224d 67-68
+  s_13ad4d372c717b::t_69c79833c118f1 56-57
+  s_13ad4d372c717b::t_e008e023ee7575 26-27
+  s_13ad4d372c717b::t_c39c451fc94226 25,28,39-40,44,47,55,58,61-62,66,69,76,79,82-83,87,90,97-98,102,105,113-114,118,121,124,127,130-131,135,138,146-147,151,154,157,160,163,166,169,172,177,180,183-184,188,191-192,196-197,201,204,210-211,215,218-219,222,226-232,234-243,245-249,251-252,254-255,257-259,263
+  s_13ad4d372c717b::t_603b2029597b56 132-134
+  s_13ad4d372c717b::t_d6ca4c4e32acaa 155-156
+  s_13ad4d372c717b::t_177e26ea4334ed 18
+  s_13ad4d372c717b::t_e1428df83f4bda 158-159
+  s_13ad4d372c717b::t_26255cc290adac 59-60
+  s_13ad4d372c717b::t_e60c377aa1db11 63-65
+  s_13ad4d372c717b::t_3e1b628fda317f 84-86
+  s_13ad4d372c717b::t_4529a50800b437 122-123
+  s_13ad4d372c717b::t_125d7d43493e4b 70-75
+  s_13ad4d372c717b::t_ebab183474b9d3 128-129
+  s_13ad4d372c717b::t_7ef8d5a4c09074 20-24
+  s_13ad4d372c717b::t_c29fecb2125df0 152-153
+  s_13ad4d372c717b::t_830c6df0de0d82 164-165
+  s_13ad4d372c717b::t_892a25cd55d032 167-168
+  s_13ad4d372c717b::t_5d339d62f7847b 136-137
+  s_13ad4d372c717b::t_3547e764d88ee9 198-200
+  s_13ad4d372c717b::t_7b4aa3364fad67 148-150
+  s_13ad4d372c717b::t_70b2429e0c5f2a 99-101
+  s_13ad4d372c717b::t_3574e651f939c6 233,244,250,253,256,260-262
+  s_13ad4d372c717b::t_6e0b49e3cf1fd9 202-203
+  s_13ad4d372c717b::t_4948dbac437bd3 91-96
+  s_13ad4d372c717b::t_d5bbfd3f0272bc 125-126
+  s_13ad4d372c717b::t_4fc612c8c9dd6a 170-171
+  s_13ad4d372c717b::t_461cc0f7cee41a 185-187
+  s_13ad4d372c717b::t_a8973e4e5747dd 19
+  s_13ad4d372c717b::t_6b2281630782fd 216-217
+  s_13ad4d372c717b::t_492d26bb6cc22e 119-120
+  s_13ad4d372c717b::t_bd6a8b1f00f849 220-221
+  s_13ad4d372c717b::t_4d9bae3de7a44f 264-300
+  s_13ad4d372c717b::t_603e5966497bd3 1-14,32-33,51,109,142
+  s_13ad4d372c717b::t_e80faf03321d11 205-209
+  s_13ad4d372c717b::t_4fb6c548d58ac4 88-89
+  s_13ad4d372c717b::t_54907f7dca69ec 29-31,36-38
+  s_13ad4d372c717b::t_f54c9446d9be8f 106-108,110-112
+  s_13ad4d372c717b::t_7dd85a2ca88b95 48-50,52-54
+  s_13ad4d372c717b::t_cdbf669fed580c 173-176
+  s_13ad4d372c717b::t_d286d831e25f12 139-141,143-145
+  s_13ad4d372c717b::t_0ebbb9cab21556 178-179
+  s_13ad4d372c717b::t_5a425f1b9508c7 15-17
+  s_13ad4d372c717b::t_264f12a2aa595c 181-182
+  s_13ad4d372c717b::t_23466b37438a1d 189-190
+  s_13ad4d372c717b::t_70c31894270a6c 45-46
+  s_13ad4d372c717b::t_a53f10f0751463 193-195
+  s_13ad4d372c717b::t_6daf8272bbe0cd 77-78
+  s_13ad4d372c717b::t_8df80dbdb9f5e7 212-214
+  s_13ad4d372c717b::t_642c7d9000fd77 223-225
+  s_13ad4d372c717b::t_38529902020c01 80-81
+test/dummy/app/ruby_ui_admin/cards/average_views.rb
+  s_13ad4d372c717b::t_aa6c9699f926af 1-14
+test/dummy/app/components/ruby_ui/card/card_header.rb
+  s_13ad4d372c717b::t_e6bdd6d3e55294 1-17
+test/dummy/app/components/ruby_ui/table/table_caption.rb
+  s_13ad4d372c717b::t_c2bb73925ed048 1-17
+test/dummy/app/components/ruby_ui/toast/toast.rb
+  s_13ad4d372c717b::t_ce01eda3caea92 1-18
+app/components/ruby_ui_admin/ui/toast_item.rb
+  s_21533fa37d81c4::t_120beaeee7537b 64-66
+  s_21533fa37d81c4::t_96413fbb82b5f9 63
+  s_21533fa37d81c4::t_5df3cd01b46b1a 60-62
+  s_21533fa37d81c4::t_09fc64784c4368 1-59,67-75
+lib/ruby_ui_admin/fields/field_manager.rb
+  s_13ad4d372c717b::t_3ec2fd48c143dc 1-27
+test/dummy/Rakefile
+  s_13ad4d372c717b::t_94300a91b563b5 1-5
+test/dummy/app/components/ruby_ui/combobox/combobox_badge_trigger.rb
+  s_13ad4d372c717b::t_f079180a6cd2c1 1-47
+test/lib/ruby_ui_admin/action_test.rb
+  s_13ad4d372c717b::t_c3e23e6470b1e3 1-41
+test/dummy/config/initializers/ruby_ui.rb
+  s_13ad4d372c717b::t_33d175e47242c7 1-11
+public/ruby-ui-admin-assets/controllers/rua--bulk-select_controller.js
+  s_13ad4d372c717b::t_4fe9396327b03e 1-19
+test/lib/ruby_ui_admin/configuration_test.rb
+  s_13ad4d372c717b::t_d897bd336f30cb 1-62
+app/components/ruby_ui_admin/ui/native_select_group.rb
+  s_13ad4d372c717b::t_9283ebc6d009a7 1-18
+lib/ruby_ui_admin/fields/has_one_field.rb
+  s_13ad4d372c717b::t_9f1740d5e808c0 1-13
+lib/ruby_ui_admin/fields/url_field.rb
+  s_13ad4d372c717b::t_3631557a33b6b1 1-21
+lib/ruby_ui_admin/fields/id_field.rb
+  s_13ad4d372c717b::t_51bf41be7824fd 1-19
+public/ruby-ui-admin-assets/vendor/stimulus.js
+  s_13ad4d372c717b::t_a99abfa8c62d8f 1-2567
+test/integration/actions_dynamic_test.rb
+  s_13ad4d372c717b::t_59714a3a9a85a2 1-52
+test/dummy/app/ruby_ui_admin/cards/posts_count.rb
+  s_13ad4d372c717b::t_28a40e15ce477e 1-13
+test/integration/configuration_test.rb
+  s_13ad4d372c717b::t_7193852178e89d 1-45
+docs/getting-started/installation.md
+  s_13ad4d372c717b::t_f6799acf063e39 9,15,17,19,69,93,108-109,112-116,120-121,123-124,131,134-136,141-143,150,155,162,187
+  s_13ad4d372c717b::t_078bbb520038f2 42-46
+  s_13ad4d372c717b::t_a6522415245c39 151-154
+  s_13ad4d372c717b::t_d09cdd261e6e9f 200-201
+  s_13ad4d372c717b::t_82b2988d7bbbfd 71-73,90
+  s_13ad4d372c717b::t_c497345173e748 28-41,47-49,52-53
+  s_13ad4d372c717b::t_c91ac8e3b41e62 110-111,117-119,122,126-130,132-133,137-140
+  s_13ad4d372c717b::t_be132582d9c889 144-149
+  s_13ad4d372c717b::t_8eeb050976ada1 125
+  s_13ad4d372c717b::t_1658f38852e86a 6-8
+  s_13ad4d372c717b::t_e58f8d4ecb912c 156-161
+  s_13ad4d372c717b::t_32a60cfeab1980 163-165,184-186
+  s_13ad4d372c717b::t_f0a8e507dd3457 10-14
+  s_13ad4d372c717b::t_5d5df6baf5c42f 16
+  s_13ad4d372c717b::t_244a8ce39a691a 91
+  s_13ad4d372c717b::t_e796c4fbf12d1f 20-22,25-27
+  s_13ad4d372c717b::t_673db0b9d269e5 188-190,194-196
+  s_13ad4d372c717b::t_65adfd3ea3d32d 197-199
+  s_13ad4d372c717b::t_00d2d2c2d3e25e 67-68
+  s_13ad4d372c717b::t_6eb83ec4b5d061 50-51,54-66,70
+  s_13ad4d372c717b::t_dec34f3b954969 94,105-107
+  s_13ad4d372c717b::t_171a1c2f1a9276 79-81,83-89,92,95-97
+  s_13ad4d372c717b::t_b073e2cd967d09 1-5,23-24,74-78,82,98-104,166-183,191-193
+  s_13ad4d372c717b::t_de0c93a890b1d7 18
+lib/ruby_ui_admin/execution_context.rb
+  s_13ad4d372c717b::t_db35c369390a30 1-36
+test/dummy/db/seeds.rb
+  s_13ad4d372c717b::t_1c8a09652791bf 1-55
+app/controllers/ruby_ui_admin/application_controller.rb
+  s_13ad4d372c717b::t_65098f5315666e 1-81
+test/dummy/app/models/tag.rb
+  s_13ad4d372c717b::t_2edeefcfe469e9 1-9
+test/dummy/config/environments/test.rb
+  s_13ad4d372c717b::t_6351d8eb8fda9f 1-10
+docs/authorization/field-authorization.md
+  s_13ad4d372c717b::t_cd65e6d5a33c85 1-53
+lib/generators/ruby_ui_admin/policy/templates/policy.rb.tt
+  s_13ad4d372c717b::t_bef9c084beca6d 1-24
+public/ruby-ui-admin-assets/controllers/rua--row-link_controller.js
+  s_13ad4d372c717b::t_d3c6cdaeb7c672 1-16
+test/lib/ruby_ui_admin/view_test.rb
+  s_13ad4d372c717b::t_547f900611c233 1-30
+app/components/ruby_ui_admin/views/card_component.rb
+  s_13ad4d372c717b::t_b173392e545cb6 1-69
+app/components/ruby_ui_admin/ui/toast_action.rb
+  s_13ad4d372c717b::t_0df4833b5394c3 1-30
+test/dummy/config/database.yml
+  s_13ad4d372c717b::t_40e0ce91e1a1df 1-12
+test/dummy/app/components/ruby_ui/base.rb
+  s_13ad4d372c717b::t_c0eda14af60857 1-28
+test/integration/index_controls_test.rb
+  s_13ad4d372c717b::t_a53119bd341823 1-27
+lib/ruby_ui_admin/fields/date_field.rb
+  s_13ad4d372c717b::t_797ec9b8dc4bd3 1-34
+lib/ruby_ui_admin/version.rb
+  s_13ad4d372c717b::t_b8ae6cebc3dccd 1-5
+docs/customization/controllers.md
+  s_13ad4d372c717b::t_2b8d5a6ce76f16 1-62
+app/components/ruby_ui_admin/ui/select.rb
+  s_13ad4d372c717b::t_aa4631a93ea593 1-29
+test/dummy/app/components/ruby_ui/sidebar/sidebar_menu_button.rb
+  s_13ad4d372c717b::t_9cfe9122aa95ae 1-63
+test/dummy/app/components/ruby_ui/select/select_controller.js
+  s_13ad4d372c717b::t_bb96daaf828d97 1-171
+lib/ruby_ui_admin.rb
+  s_13ad4d372c717b::t_b6484135f7fefe 1-110
+app/components/ruby_ui_admin/views/action_trigger.rb
+  s_13ad4d372c717b::t_84ad5ccb947b2c 1-148
+test/dummy/config/routes.rb
+  s_13ad4d372c717b::t_202c1e41631dff 1-10
+test/integration/javascript_test.rb
+  s_13ad4d372c717b::t_21e99b383c26aa 1-80
+test/dummy/app/components/ruby_ui/pagination/pagination.rb
+  s_13ad4d372c717b::t_daae936f169fe7 1-19
+lib/ruby_ui_admin/fields/files_field.rb
+  s_13ad4d372c717b::t_7f18b0b9f5d797 1-62
+docs/filters/overview.md
+  s_13ad4d372c717b::t_9a6df5917cf4ca 1-73
+lib/ruby_ui_admin/fields/badge_field.rb
+  s_13ad4d372c717b::t_1d573e1c222f96 1-19
+lib/ruby_ui_admin/scopes/base_scope.rb
+  s_13ad4d372c717b::t_95c973505455a3 1-107
+app/components/ruby_ui_admin/views/field_input.rb
+  s_13ad4d372c717b::t_3d67355b667216 1-156
+test/dummy/app/components/ruby_ui/combobox/combobox_checkbox.rb
+  s_13ad4d372c717b::t_08bc4dd4d87c3c 1-27
+test/dummy/config/environments/development.rb
+  s_13ad4d372c717b::t_6f498001f52a03 1-11
+lib/ruby_ui_admin/filters/text_filter.rb
+  s_13ad4d372c717b::t_3cd11d42dcf20e 1-9
+lib/ruby_ui_admin/fields/association_field.rb
+  s_13ad4d372c717b::t_5cbee43eed9f2b 1-67
+app/components/ruby_ui_admin/views/show_fields.rb
+  s_13ad4d372c717b::t_a6944b346bc075 1-37
+lib/ruby_ui_admin/base_resource.rb
+  s_13ad4d372c717b::t_dc76a3fc1ad1c7 1-503
+test/integration/resources_crud_test.rb
+  s_13ad4d372c717b::t_7e5ce224cf4bf6 1-120
+public/ruby-ui-admin-assets/controllers/ruby_ui--sheet_content_controller.js
+  s_13ad4d372c717b::t_b7ed464597ef8e 1-7
+app/assets/stylesheets/ruby_ui_admin/application.tailwind.css
+  s_13ad4d372c717b::t_6e264403d9ba0c 1-111
+lib/generators/ruby_ui_admin/filter/filter_generator.rb
+  s_13ad4d372c717b::t_ee19c9f2841968 1-28
+test/dummy/app/components/ruby_ui/sidebar/sidebar_menu_badge.rb
+  s_13ad4d372c717b::t_453780f849351b 1-30
+test/dummy/db/migrate/20260101000004_add_user_demo_fields.rb
+  s_13ad4d372c717b::t_44fa3296a9ebdb 1-12
+test/integration/ruby_ui_poc_test.rb
+  s_13ad4d372c717b::t_64925ccedc92a8 1-27
+app/components/ruby_ui_admin/ui/toast_cancel.rb
+  s_13ad4d372c717b::t_b4ce3ab283fe22 1-30
+test/dummy/app/models/profile.rb
+  s_13ad4d372c717b::t_80360ec4250579 1-7
+test/dummy/app/components/ruby_ui/sidebar/sidebar_menu_sub.rb
+  s_13ad4d372c717b::t_aaf616ee7b0a38 1-24
+test/dummy/config/boot.rb
+  s_13ad4d372c717b::t_7ab1708e91803b 1-5
+test/integration/field_defaults_test.rb
+  s_13ad4d372c717b::t_388871c076f87e 1-34
+test/dummy/app/ruby_ui_admin/resources/user.rb
+  s_13ad4d372c717b::t_f9d1d7f2733b4a 1-51
+test/dummy/app/components/ruby_ui/native_select/native_select_group.rb
+  s_13ad4d372c717b::t_9d4a18d37f0c47 1-15
+test/dummy/config/environment.rb
+  s_13ad4d372c717b::t_bed83e88c0aeb0 1-5
+test/integration/bulk_actions_test.rb
+  s_13ad4d372c717b::t_77b260b158ef85 1-67
+public/ruby-ui-admin-assets/controllers/rua--tabs_controller.js
+  s_13ad4d372c717b::t_0fe85ff8c36111 1-36
+app/controllers/ruby_ui_admin/docs_controller.rb
+  s_13ad4d372c717b::t_a238a38a598c5e 1-166
+test/dummy/app/ruby_ui_admin/scopes/draft_posts.rb
+  s_13ad4d372c717b::t_0eaf6c8a5834d1 1-10
+test/dummy/app/components/ruby_ui/sidebar/sidebar_menu.rb
+  s_13ad4d372c717b::t_bc041b4d70fcbb 1-20
+docs/getting-started/authentication.md
+  s_13ad4d372c717b::t_59d6ed923474db 1-98
+.gitignore
+  s_13ad4d372c717b::t_4cc221d21813f6 1-5,13-23
+  s_13ad4d372c717b::t_5bf29a1efdc86b 6-8
+  s_13ad4d372c717b::t_ddb07fdbfb977f 9
+  s_13ad4d372c717b::t_b65e7241ff5da0 10-12
+app/components/ruby_ui_admin/ui/native_select_option.rb
+  s_13ad4d372c717b::t_bbb2ecea62bb81 1-18
+test/dummy/app/components/ruby_ui/badge/badge.rb
+  s_13ad4d372c717b::t_99fa0ff535e4f9 1-60
+test/integration/toast_test.rb
+  s_13ad4d372c717b::t_67f2db1fcf8246 1-57
+test/dummy/app/ruby_ui_admin/actions/archive_posts.rb
+  s_13ad4d372c717b::t_4489ab9fb7ad6a 1-14
+test/dummy/app/components/ruby_ui/table/table_head.rb
+  s_13ad4d372c717b::t_1620b4daa43459 1-17
+test/dummy/app/components/ruby_ui/table/table_cell.rb
+  s_13ad4d372c717b::t_9d050ed73eb44e 1-17
+lib/ruby_ui_admin/fields/key_value_field.rb
+  s_13ad4d372c717b::t_9447da2e2bbffd 1-41
+test/dummy/app/components/ruby_ui/textarea/textarea.rb
+  s_13ad4d372c717b::t_80cb1a8a6f9ba1 1-33
+test/dummy/app/components/ruby_ui/sidebar/sidebar_group.rb
+  s_13ad4d372c717b::t_52599c3b451c4c 1-20
+lib/generators/ruby_ui_admin/install/templates/initializer.rb.tt
+  s_13ad4d372c717b::t_75b146ad548d3d 1-41
+test/dummy/app/components/ruby_ui/sheet/sheet_middle.rb
+  s_13ad4d372c717b::t_7d1302644f76ff 1-17
+config/locales/ruby_ui_admin.pt-BR.yml
+  s_13ad4d372c717b::t_6211c70d391d76 1-59
+test/dummy/app/components/ruby_ui/toast/toast_controller.js
+  s_13ad4d372c717b::t_3149cbc10e56a9 1-151
+test/fixtures/files/posts.csv
+  s_13ad4d372c717b::t_acd23617d57a37 1-2
+test/dummy/app/components/ruby_ui/select/select_content.rb
+  s_13ad4d372c717b::t_0c21d77308aeeb 1-32
+test/integration/file_fields_test.rb
+  s_13ad4d372c717b::t_1229d656b1bf59 1-148
+config/routes.rb
+  s_13ad4d372c717b::t_bfa9c38988de3b 1-23
+lib/ruby_ui_admin/authorization/can_can_can_adapter.rb
+  s_13ad4d372c717b::t_a0e58c2431dffa 1-70
+lib/ruby_ui_admin/fields/code_field.rb
+  s_13ad4d372c717b::t_1f28672d7c7804 1-18
+docs/getting-started/configuration.md
+  s_13ad4d372c717b::t_ece0e86ba275f5 1-174
+test/integration/field_authorization_test.rb
+  s_13ad4d372c717b::t_ca965555ddda5e 1-73
+docs/resources/index-customization.md
+  s_13ad4d372c717b::t_95a0ab60283600 1-68
+test/dummy/app/components/ruby_ui/combobox/combobox_list_group.rb
+  s_13ad4d372c717b::t_3d1f2fa343731b 1-20
+test/integration/styling_test.rb
+  s_13ad4d372c717b::t_af31ce5679b076 1-31
+Rakefile
+  s_13ad4d372c717b::t_b0d4a6aed638f4 1-17
+public/ruby-ui-admin-assets/controllers/ruby_ui--sidebar_controller.js
+  s_13ad4d372c717b::t_358cfb474f2f05 1-67
+test/dummy/app/components/ruby_ui/toast/toaster_controller.js
+  s_13ad4d372c717b::t_fe07268a8c426f 1-306
+public/ruby-ui-admin-assets/controllers/ruby_ui--sheet_controller.js
+  s_13ad4d372c717b::t_3cbbe8a5cbb5ac 1-15
+test/lib/ruby_ui_admin/structure_test.rb
+  s_13ad4d372c717b::t_45c8ca760e28a3 1-52
+app/components/ruby_ui_admin/views/show.rb
+  s_13ad4d372c717b::t_8dfa4fe607a107 1-77
+docs/generators-and-tasks/overview.md
+  s_13ad4d372c717b::t_e11d0dd68be754 1-12,21-26,30-39,41-42
+  s_13ad4d372c717b::t_a4d169c97116cf 18-20
+  s_13ad4d372c717b::t_81bd19f68386f8 13-15
+  s_13ad4d372c717b::t_b9c1b95a2e8d62 27-29
+  s_13ad4d372c717b::t_548f34040a6507 16-17
+  s_13ad4d372c717b::t_a48912ec2699e6 40
+test/dummy/app/ruby_ui_admin/resources/comment.rb
+  s_13ad4d372c717b::t_60a5d8b9678b37 1-25
+test/dummy/config/application.rb
+  s_13ad4d372c717b::t_4057fd9b87281d 1-28
+test/dummy/app/components/ruby_ui/sidebar/sidebar_separator.rb
+  s_13ad4d372c717b::t_9ff4cbb573c02c 1-20
+lib/ruby_ui_admin/fields/record_link_field.rb
+  s_13ad4d372c717b::t_10fd122a61c829 1-45
+test/dummy/app/components/ruby_ui/checkbox/checkbox_group_controller.js
+  s_13ad4d372c717b::t_0860993377b13d 1-21
+test/dummy/app/components/ruby_ui/select/select_item.rb
+  s_13ad4d372c717b::t_b5f04cd2e3b511 1-61
+lib/ruby_ui_admin/fields/select_field.rb
+  s_13ad4d372c717b::t_1c1ed027abd494 1-71
+public/ruby-ui-admin-assets/controllers/ruby_ui--combobox_controller.js
+  s_13ad4d372c717b::t_68fc970736a51b 1-197
+app/components/ruby_ui_admin/ui.rb
+  s_13ad4d372c717b::t_3881450f5536c3 1-12
+test/dummy/app/components/ruby_ui/link/link.rb
+  s_13ad4d372c717b::t_7529a51650615f 1-113
+lib/ruby_ui_admin/authorization/adapter.rb
+  s_13ad4d372c717b::t_b796fb8374c013 1-80
+test/dummy/app/ruby_ui_admin/filters/status_filter.rb
+  s_13ad4d372c717b::t_0b71896fd9bfc8 1-17
+docs/customization/ejecting.md
+  s_13ad4d372c717b::t_8a878890dba533 1-55
+test/dummy/app/components/ruby_ui/sheet/sheet_trigger.rb
+  s_13ad4d372c717b::t_32d95c3bb4f936 1-17
+test/dummy/config/initializers/ruby_ui_admin.rb
+  s_13ad4d372c717b::t_b5389d7d88b96e 1-66
+test/dummy/app/components/ruby_ui/toast/toast_title.rb
+  s_13ad4d372c717b::t_44c89800afb5f9 1-18
+test/dummy/app/components/ruby_ui/combobox/combobox_controller.js
+  s_13ad4d372c717b::t_a1bef1aa8b2056 1-193
+lib/generators/ruby_ui_admin/scope/templates/scope.rb.tt
+  s_13ad4d372c717b::t_cd050a9b7dcd1f 1-11
+docs/getting-started/internationalization.md
+  s_13ad4d372c717b::t_69b2ba475b4a94 1-50
+app/controllers/ruby_ui_admin/resources_controller.rb
+  s_13ad4d372c717b::t_ccd18148232684 1-259
+test/integration/computed_fields_test.rb
+  s_13ad4d372c717b::t_3b0c4ddf248cc0 1-40
+docs/fields/overview.md
+  s_13ad4d372c717b::t_7c21e7351e3b4a 1-94
+lib/ruby_ui_admin/services/authorization_service.rb
+  s_13ad4d372c717b::t_315f46ebc336c7 1-38
+test/dummy/app/components/ruby_ui/select/select.rb
+  s_13ad4d372c717b::t_2e6b2cd46b0d33 1-23
+app/components/ruby_ui_admin/ui/toast_close.rb
+  s_13ad4d372c717b::t_d3336ce990d040 1-43
+test/dummy/app/ruby_ui_admin/scopes/published_via_symbol.rb
+  s_13ad4d372c717b::t_0fda0de5799110 1-11
+app/components/ruby_ui_admin/views/docs.rb
+  s_13ad4d372c717b::t_9cfefabbfec655 1-91
+test/dummy/db/migrate/20260101000005_add_post_published_on.rb
+  s_13ad4d372c717b::t_297d980b86183f 1-7
+test/dummy/app/ruby_ui_admin/filters/statuses_filter.rb
+  s_13ad4d372c717b::t_f53e3f71dee483 1-18
+test/integration/boolean_group_field_test.rb
+  s_13ad4d372c717b::t_447a3b9470c0db 1-48
+lib/generators/ruby_ui_admin/filter/templates/text_filter.rb.tt
+  s_13ad4d372c717b::t_de3bdc01a3a207 1-13
+docs/resources/associations.md
+  s_13ad4d372c717b::t_420ec5db54b38e 1-66
+lib/ruby_ui_admin/cards/partial_card.rb
+  s_13ad4d372c717b::t_ea7b94fab0f288 1-14
+lib/ruby_ui_admin/fields/boolean_group_field.rb
+  s_13ad4d372c717b::t_669eb422f0b09d 1-54
+lib/generators/ruby_ui_admin/card/templates/partial_card.rb.tt
+  s_13ad4d372c717b::t_7c4d5298913fbc 1-13
+test/dummy/app/models/application_record.rb
+  s_13ad4d372c717b::t_b421e3f9e78e26 1-5
+ruby_ui_admin.gemspec
+  s_13ad4d372c717b::t_ef3a834ae61a49 1-45
+test/dummy/app/components/ruby_ui/typography/inline_link.rb
+  s_13ad4d372c717b::t_6466f70b09c83d 1-22
+test/dummy/app/components/ruby_ui/sheet/sheet_controller.js
+  s_13ad4d372c717b::t_74cc0dd6ea11f1 1-15
+test/integration/custom_sorting_test.rb
+  s_13ad4d372c717b::t_05f96ec382315b 1-32
+app/components/ruby_ui_admin/ui/pagination_content.rb
+  s_13ad4d372c717b::t_f965cd8c1e4cb8 1-18
+lib/ruby_ui_admin/view.rb
+  s_13ad4d372c717b::t_b3b99c5bad3b82 1-34
+app/components/ruby_ui_admin/views/structure_renderer.rb
+  s_13ad4d372c717b::t_42c686f6f15925 1-148
+lib/ruby_ui_admin/fields/has_and_belongs_to_many_field.rb
+  s_13ad4d372c717b::t_40786201c1d741 1-9
+test/dummy/app/components/ruby_ui/card/card_description.rb
+  s_13ad4d372c717b::t_a5fc39f78cf82b 1-17
+test/integration/second_audit_test.rb
+  s_13ad4d372c717b::t_c286bea6b048f1 1-102
+test/dummy/app/components/ruby_ui/combobox/combobox_search_input.rb
+  s_13ad4d372c717b::t_729c59a9a54701 1-59
+docs/authorization/adapters.md
+  s_13ad4d372c717b::t_04e16ed624a013 1-101
+lib/ruby_ui_admin/dashboard_manager.rb
+  s_13ad4d372c717b::t_38b00e0fc1ec90 1-52
+test/integration/dashboards_test.rb
+  s_13ad4d372c717b::t_29a5883f51b1e5 1-36
+lib/ruby_ui_admin/authorization.rb
+  s_13ad4d372c717b::t_1639161458b32b 1-40
+test/dummy/app/components/ruby_ui/sidebar/sidebar_inset.rb
+  s_13ad4d372c717b::t_eb8ec346b255fa 1-23
+test/dummy/app/components/ruby_ui/combobox/combobox_clear_button.rb
+  s_13ad4d372c717b::t_2e3ba49e6cb33c 1-40
+test/dummy/app/components/ruby_ui/combobox/combobox_toggle_all_checkbox.rb
+  s_13ad4d372c717b::t_14dea0a8a33530 1-27
+test/lib/ruby_ui_admin/scope_test.rb
+  s_13ad4d372c717b::t_138a358e3fc08d 1-72
+test/dummy/app/components/ruby_ui/sidebar/collapsible_sidebar.rb
+  s_13ad4d372c717b::t_336f0a5e3b97b2 1-99
+test/dummy/app/ruby_ui_admin/cards/welcome_panel.rb
+  s_13ad4d372c717b::t_97e3d59c778e1c 1-19
+test/dummy/app/components/ruby_ui/sidebar/sidebar_menu_action.rb
+  s_13ad4d372c717b::t_662cfcb2179746 1-48
+test/dummy/app/components/ruby_ui/combobox/combobox_empty_state.rb
+  s_13ad4d372c717b::t_51dabb4dd5d42c 1-21
+Gemfile
+  s_13ad4d372c717b::t_f9650c3eaee2e3 1-24
+test/dummy/app/components/ruby_ui/pagination/pagination_ellipsis.rb
+  s_13ad4d372c717b::t_98620bcbd1a571 1-42
+lib/ruby_ui_admin/fields/file_field.rb
+  s_13ad4d372c717b::t_ba6e52d2dfb49f 1-67
+docs/authorization/action-policy.md
+  s_13ad4d372c717b::t_43846c89598dd1 1-72
+test/authorization/pundit_adapter_test.rb
+  s_13ad4d372c717b::t_dd2ffe0f3108b3 1-85
+docs/resources/scopes.md
+  s_13ad4d372c717b::t_fa3bfabba0acb2 1-54
+test/integration/delete_confirmation_test.rb
+  s_13ad4d372c717b::t_8c17bb2630895c 1-41
+app/components/ruby_ui_admin/ui/toast_title.rb
+  s_13ad4d372c717b::t_7dbc91d823a37c 1-21
+lib/ruby_ui_admin/filters/multiple_select_filter.rb
+  s_13ad4d372c717b::t_0f56db277aefb6 1-11
+test/integration/resource_controllers_test.rb
+  s_13ad4d372c717b::t_d702c87e12aec0 1-30
+docs/actions/overview.md
+  s_13ad4d372c717b::t_31e7e362555630 1-112
+docs/resources/overview.md
+  s_13ad4d372c717b::t_e3bbe1714222a1 1-50
+lib/generators/ruby_ui_admin/action/templates/action.rb.tt
+  s_13ad4d372c717b::t_70c9c6af098f53 1-24
+test/dummy/app/components/ruby_ui/toast/toast_close.rb
+  s_13ad4d372c717b::t_f8be84bcb375a2 1-40
+test/dummy/app/ruby_ui_admin/resources/profile.rb
+  s_13ad4d372c717b::t_b7d9aad49e8ef6 1-18
+test/dummy/db/migrate/20260101000001_create_dummy_schema.rb
+  s_13ad4d372c717b::t_e900cffc7cc9fe 1-27
+test/dummy/app/components/ruby_ui/input/input.rb
+  s_13ad4d372c717b::t_17850c3940ee8e 1-34
+app/controllers/ruby_ui_admin/home_controller.rb
+  s_13ad4d372c717b::t_4825e113c14009 1-18
+lib/generators/ruby_ui_admin/resource/resource_generator.rb
+  s_13ad4d372c717b::t_8215047fbc8a9a 70
+  s_13ad4d372c717b::t_cfefe5a1c8c9c1 17,23,27,31,58,69,71-75,81
+  s_13ad4d372c717b::t_2daff105ad4ee1 76-80
+  s_13ad4d372c717b::t_090ddcc14e7dd5 59-61,66-68
+  s_13ad4d372c717b::t_3f5e1e98fc79b2 47-49,55-57
+  s_13ad4d372c717b::t_8d45c076b94b84 42-46
+  s_13ad4d372c717b::t_3a07e0462ba55b 1-13,35-38,50-54,62-65
+  s_13ad4d372c717b::t_2c87706bc82d74 14-16
+  s_13ad4d372c717b::t_57108efcc05010 82-84
+  s_13ad4d372c717b::t_cd1596532d06f5 18-22
+  s_13ad4d372c717b::t_387bb3e66c32bd 28-30
+  s_13ad4d372c717b::t_f6b21cecd563d2 32-34,39-41
+  s_13ad4d372c717b::t_af9e7a2384e7c6 24-26
+lib/generators/ruby_ui_admin/scope/scope_generator.rb
+  s_13ad4d372c717b::t_5a93f4fb1a7ade 1-18
+test/test_helper.rb
+  s_13ad4d372c717b::t_6026ce0ea80d48 1-36
+test/dummy/app/components/ruby_ui/toast/toast_region.rb
+  s_13ad4d372c717b::t_20b3589e499d4d 1-124
+docs/README.md
+  s_13ad4d372c717b::t_ab323dd8b0ba52 1-53
+test/dummy/app/components/ruby_ui/select/select_value.rb
+  s_13ad4d372c717b::t_48e1fe26783a3d 1-28
+test/lib/ruby_ui_admin/tailwind_source_test.rb
+  s_13ad4d372c717b::t_62657485d19f63 1-58
+config/routes/dynamic_routes.rb
+  s_13ad4d372c717b::t_1209896d59065c 1-11
+test/dummy/app/components/ruby_ui/native_select/native_select_icon.rb
+  s_13ad4d372c717b::t_392cce6cd462b9 1-39
+test/integration/lazy_tabs_test.rb
+  s_13ad4d372c717b::t_b611c580688ee6 1-51
+lib/ruby_ui_admin/fields/hidden_field.rb
+  s_13ad4d372c717b::t_2e6d679a0fe0df 1-14
+test/integration/resource_polish_test.rb
+  s_13ad4d372c717b::t_b3d30080f92f33 1-68
+test/dummy/app/components/ruby_ui/toast/toast_cancel.rb
+  s_13ad4d372c717b::t_55fb463a53ee58 1-27
+test/dummy/app/components/ruby_ui/combobox/combobox_radio.rb
+  s_13ad4d372c717b::t_c9917f0df2630a 1-33
+README.md
+  s_13ad4d372c717b::t_eee7da7d931754 41-43,59-61
+  h_e4c387b48ae58e 8
+  s_13ad4d372c717b::t_26efd213ea7160 64-65
+  s_13ad4d372c717b::t_a2254c293a0818 35-36
+  s_13ad4d372c717b::t_302e29c2129f40 38-40
+  s_13ad4d372c717b::t_cf0693f34222b7 62-63
+  s_13ad4d372c717b::t_bb577681ecd1a7 70
+  s_13ad4d372c717b::t_e4648c3ba7afcc 34,37
+  s_13ad4d372c717b::t_f68f2eaae895c9 1-6,9-33,44-58,66-69,71-165
+  s_21533fa37d81c4::t_deddd9b74714de 7
+CLAUDE.md
+  s_13ad4d372c717b::t_85b704f1c459df 36-38
+  s_13ad4d372c717b::t_254945223881dc 40-42
+  s_13ad4d372c717b::t_e46b5793f35774 39
+  s_13ad4d372c717b::t_734ed05a4de4a1 1-35,43-111
+app/components/ruby_ui_admin/views/field_value.rb
+  s_13ad4d372c717b::t_355225d3f8a301 1-301
+app/components/ruby_ui_admin/views/home.rb
+  s_13ad4d372c717b::t_5bce775062d489 1-35
+test/dummy/app/components/ruby_ui/combobox/combobox_trigger.rb
+  s_13ad4d372c717b::t_531ae01811e21b 1-63
+test/dummy/app/components/ruby_ui/pagination/pagination_item.rb
+  s_13ad4d372c717b::t_c76989a01227f5 1-28
+lib/generators/ruby_ui_admin/eject/eject_generator.rb
+  s_13ad4d372c717b::t_12efc7bfad18f2 1-55
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "0d0ee6939817abc1a94a85d22f4a44b14e743267",
+  "prompts": {},
+  "humans": {
+    "h_e4c387b48ae58e": {
+      "author": "Jackson Pires <jackson.pires@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_13ad4d372c717b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "268ddd8b-06fc-451c-9d6c-ca7fabf5f6eb",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": null
+    },
+    "s_21533fa37d81c4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1b672aad-341f-4d8c-b97c-ef9e396772f4",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": null
+    }
+  }
+}
