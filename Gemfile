@@ -11,8 +11,10 @@ group :development, :test do
   gem "importmap-rails"
   gem "stimulus-rails"
   gem "tailwindcss-rails"
-  # PoC (Option 3): render with host's RubyUI components. Generator/eject source.
-  gem "ruby_ui", github: "ruby-ui/ruby_ui", branch: "main", require: false
+  # The admin renders the host's RubyUI components (test/dummy/app/components/ruby_ui mirrors
+  # ruby_ui 1.6.0). Pinned to the released gem: ruby_ui's unreleased `main` rewrote Combobox
+  # (no ComboboxPopover/ComboboxTrigger/…), which the admin's views don't support yet.
+  gem "ruby_ui", "~> 1.6", require: false
   # Optional authorization backends (adapters): exercised by the test suite. Hosts add the one
   # they use. The gem requires these lazily, only when the matching authorization_client is selected.
   gem "pundit", require: false

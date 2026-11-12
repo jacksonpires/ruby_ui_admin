@@ -33,7 +33,8 @@ The admin renders **your host app's RubyUI components**, so it expects:
 
 - [RubyUI](https://rubyui.com) installed and its components generated into your app
   (`app/components/ruby_ui/*` as `RubyUI::*`), at a version compatible with the admin — run
-  `rails g ruby_ui_admin:components` to generate exactly the ones the admin renders.
+  `rails g ruby_ui_admin:components` to generate exactly the ones the admin renders. Use
+  **ruby_ui 1.6.x** (see [Compatibility](#compatibility)).
 - A **JavaScript bundler/importmap** that registers RubyUI's Stimulus controllers (and the admin's
   own `rua--*` controllers — use `rails g ruby_ui_admin:assets` to copy them in), plus a **Tailwind
   build** that covers `app/components/ruby_ui/**` and the admin's views. You wire these into the
@@ -42,6 +43,23 @@ The admin renders **your host app's RubyUI components**, so it expects:
 This makes the admin part of your app's UI rather than a self-contained bundle. (See
 [Theming with RubyUI](docs/customization/theming-rubyui.md) and
 [JavaScript](docs/customization/javascript.md).)
+
+### Compatibility
+
+Tested on **2026-11-10** with the latest releases; the full test suite (252 tests) passes on every
+combination below:
+
+| Dependency  | Tested versions     | Gem requirement |
+| ----------- | ------------------- | --------------- |
+| Ruby        | 3.4.4, **4.0.9**    | `>= 3.2`        |
+| Rails       | **8.1.4.1**         | `>= 7.1`        |
+| Phlex       | **2.4.1** (phlex-rails **2.4.0**) | phlex-rails `>= 2.0` |
+| RubyUI      | **1.6.0**           | 1.6.x components in the host app |
+
+> **RubyUI's unreleased `main` is not supported yet.** It rewrites the `Combobox` family
+> (`ComboboxPopover`, `ComboboxTrigger`, … are removed), which the admin's filter bar and
+> actions menu render. Stay on the released `ruby_ui` 1.6.x gem until a ruby_ui_admin release
+> supports the new API.
 
 ### Design principles
 
@@ -156,8 +174,9 @@ Full documentation lives in [`docs/`](docs/README.md).
 ## Development
 
 ```bash
-bin/setup            # bundle install
-bundle exec rake test    # run the minitest suite against test/dummy
+bundle install
+(cd test/dummy && bin/rails db:prepare)   # create the dummy app's database
+bundle exec rake test                     # run the minitest suite against test/dummy
 ```
 
 ## License
