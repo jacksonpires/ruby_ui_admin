@@ -36,7 +36,16 @@ bundle exec rake test
 ```
 
 The suite runs against the dummy app in `test/dummy` (which is part of the test setup — do
-not delete it). To prepare its database: `cd test/dummy && bin/rails db:prepare`.
+not delete it). To prepare its database: `cd test/dummy && RAILS_ENV=test bin/rails db:schema:load`
+(not `db:prepare` for the test DB: it also runs `db/seeds.rb`, and the suite expects an empty DB).
+
+**CI matrix** (`.github/workflows/ci.yml`): Ruby 3.2–4.0 × Rails 7.1–8.1, one Gemfile per Rails
+version in `gemfiles/rails_X.Y.gemfile` (each pins `rails` and `eval_gemfile`s the root `Gemfile`).
+Locally: `BUNDLE_GEMFILE=gemfiles/rails_7.1.gemfile bundle install && … bundle exec rake test`.
+To keep the dummy app loadable on every Rails in the matrix:
+- `test/dummy/db/schema.rb` must stay `ActiveRecord::Schema[7.1]` — dumping it from a newer Rails
+  rewrites the header (e.g. `Schema[8.1]`), which older Rails can't load. Fix the header back.
+- `config.load_defaults` in `test/dummy/config/application.rb` is `[Rails version, 7.2].min`.
 
 ## Dummy app & assets gotchas
 
