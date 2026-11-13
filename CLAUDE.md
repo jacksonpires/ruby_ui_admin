@@ -2,6 +2,16 @@
 
 Guidance for working in the `ruby_ui_admin` gem.
 
+## Knowledge base (OKF)
+
+- **OKF (Open Knowledge Format) is the system of record for everything about this gem.**
+  Knowledge, decisions (and their rationale) and documentation are captured and kept in the
+  project's OKF bundle at **`.okf/`** (repo root), using the `okf` skill. The gem's `docs/`
+  stays the user-facing how-to; `.okf/` records the why, decisions and cross-cutting mechanics.
+- When you learn something non-obvious, make or change a decision, or change behaviour that is
+  documented, record or update it in the OKF bundle as part of the same task.
+- To answer "what do we know about X?" or "why was X done this way?", search the OKF bundle first.
+
 ## Testing conventions (minitest)
 
 - **No `setup` or `teardown` blocks.** Every test must be **self-contained**: it creates all
