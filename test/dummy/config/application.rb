@@ -13,7 +13,8 @@ require "ruby_ui_admin"
 
 module Dummy
   class Application < Rails::Application
-    config.load_defaults 7.2
+    # Never above 7.2 (what the suite was written against), but no higher than the running Rails.
+    config.load_defaults [Rails::VERSION::STRING.to_f, 7.2].min
 
     config.eager_load = false
     config.consider_all_requests_local = true

@@ -11,6 +11,7 @@
 *.rbc
 .rspec_status
 Gemfile.lock
+/gemfiles/*.lock
 
 # Dummy app
 /test/dummy/log/*

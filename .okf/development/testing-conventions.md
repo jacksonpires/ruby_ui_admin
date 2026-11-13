@@ -33,5 +33,21 @@ so hidden fixtures leak between tests and only fail under some seeds.
 # Running
 
 `bundle exec rake test`, against `test/dummy` (part of the test setup; never delete it). Prepare
-its DB with `cd test/dummy && bin/rails db:prepare`. Database pitfalls are in
+the test DB with `cd test/dummy && RAILS_ENV=test bin/rails db:schema:load` — **not** `db:prepare`,
+which also runs `db/seeds.rb` on a fresh DB; the self-contained tests assume an empty DB and ~30 of
+them fail against seeded data. Database pitfalls are in
 [dev-reload gotchas](/development/dev-reload-gotchas.md).
+
+# CI matrix
+
+`.github/workflows/ci.yml` runs the suite on Ruby 3.2–4.0 × Rails 7.1–8.1 (Ruby 3.1 is out:
+Phlex 2.x needs 3.2+). Each Rails version has `gemfiles/rails_X.Y.gemfile`, which pins `rails`
+and `eval_gemfile`s the root `Gemfile` so the dev/test groups (RubyUI, auth adapters, kramdown…)
+stay in one place.
+
+Keeping the dummy app loadable on the oldest Rails in the matrix:
+
+- `test/dummy/db/schema.rb` is pinned to `ActiveRecord::Schema[7.1]`. A schema dumped by a newer
+  Rails rewrites the header (`Schema[8.1]`), which Rails 7.1–8.0 reject (`Unknown version`).
+- `config.load_defaults [Rails::VERSION::STRING.to_f, 7.2].min` — 7.2 is what the suite was
+  written against, and Rails 7.1 doesn't know `load_defaults 7.2`.

@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- CI on GitHub Actions: the full test suite runs on Ruby 3.2, 3.3, 3.4 and 4.0 × Rails 7.1, 7.2,
+  8.0 and 8.1 (`gemfiles/rails_X.Y.gemfile`). Documented in the README's compatibility matrix.
+
 ## [0.1.1] - 2026-11-12
 
 ### Changed

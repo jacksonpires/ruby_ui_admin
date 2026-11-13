@@ -1,5 +1,7 @@
 # RubyUI Admin
 
+[![CI](https://github.com/jacksonpires/ruby_ui_admin/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jacksonpires/ruby_ui_admin/actions/workflows/ci.yml)
+
 `ruby_ui_admin` is a Rails admin dashboard engine, rendered with
 [RubyUI](https://rubyui.com) (Phlex) components, that even serves its own documentation as HTML
 inside your app at `<mount>/docs` (e.g. `/admin/docs`).
@@ -46,15 +48,34 @@ This makes the admin part of your app's UI rather than a self-contained bundle. 
 
 ### Compatibility
 
-Tested on **2026-11-10** with the latest releases; the full test suite (252 tests) passes on every
-combination below:
+| Dependency  | Gem requirement |
+| ----------- | --------------- |
+| Ruby        | `>= 3.2`        |
+| Rails       | `>= 7.1`        |
+| Phlex       | phlex-rails `>= 2.0` (tested with Phlex **2.4.1** / phlex-rails **2.4.0**) |
+| RubyUI      | **1.6.x** components in the host app (tested with **1.6.0**) |
 
-| Dependency  | Tested versions     | Gem requirement |
-| ----------- | ------------------- | --------------- |
-| Ruby        | 3.4.4, **4.0.9**    | `>= 3.2`        |
-| Rails       | **8.1.4.1**         | `>= 7.1`        |
-| Phlex       | **2.4.1** (phlex-rails **2.4.0**) | phlex-rails `>= 2.0` |
-| RubyUI      | **1.6.0**           | 1.6.x components in the host app |
+#### CI matrix
+
+The full test suite (252 tests) runs in CI against every combination below.
+
+| Ruby \ Rails | 7.1 | 7.2 | 8.0 | 8.1 |
+|--------------|:---:|:---:|:---:|:---:|
+| **4.0**      | ✅  | ✅  | ✅  | ✅  |
+| **3.4**      | ✅  | ✅  | ✅  | ✅  |
+| **3.3**      | ✅  | ✅  | ✅  | ✅  |
+| **3.2**      | ✅  | ✅  | ✅  | ✅  |
+
+Ruby 3.1 isn't supported because Phlex 2.x (required by `phlex-rails >= 2.0`) needs Ruby 3.2+.
+
+To run the suite against a specific Rails version locally:
+
+```bash
+export BUNDLE_GEMFILE=gemfiles/rails_8.1.gemfile
+bundle install
+(cd test/dummy && RAILS_ENV=test bin/rails db:schema:load)
+bundle exec rake test
+```
 
 > **RubyUI's unreleased `main` is not supported yet.** It rewrites the `Combobox` family
 > (`ComboboxPopover`, `ComboboxTrigger`, … are removed), which the admin's filter bar and

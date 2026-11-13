@@ -1,0 +1,8 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gem "rails", "~> 8.1.0"
+
+# Shared development/test dependencies (dummy app, RubyUI, authorization adapters, docs viewer).
+eval_gemfile "../Gemfile"
